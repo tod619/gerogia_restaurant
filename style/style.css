@@ -30,6 +30,16 @@ body {
           align-items: center;
 }
 
+.header-banner {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 .logo {
   font-size: 70px;
   color: #d3ab55;
