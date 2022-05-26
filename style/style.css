@@ -112,6 +112,69 @@ body {
       flex-wrap: wrap;
 }
 
+.footer {
+  padding: 70px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 70px;
+}
+
+.footer .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.footer .social-media-item {
+  list-style-type: none;
+}
+
+.footer .social-media-link {
+  text-decoration: none;
+  font-size: 50px;
+  color: #bbb;
+  -webkit-transition: color 0.7s ease;
+  transition: color 0.7s ease;
+}
+
+.footer .social-media-link:hover {
+  color: #d3ab55;
+}
+
+.footer-copyright-paragraph {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: #bbb;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
 .logo {
   font-size: 70px;
   color: #d3ab55;
