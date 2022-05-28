@@ -56,6 +56,10 @@
     font-weight: 300;
     color: $color-primary;
     margin-bottom: 40px;
+
+    @media  screen and (max-width:1600px) {
+        font-size: 80px;
+    }
 }
 
 .sub-heading {
@@ -64,6 +68,18 @@
     font-weight: 300;
     color: $color-secondary;
     margin-bottom: 80px;
+    text-align: center;
+
+    @media screen and (max-width:1600px) {
+        font-size: 50px;
+        margin-bottom: 50px;    
+    }
+
+    @media screen and (max-width:1300px) {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
 }
 
 .main-btn {
