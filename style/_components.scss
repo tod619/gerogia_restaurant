@@ -32,7 +32,14 @@
     border: 3px solid $color-primary;
     border-radius: 50%;
     margin-right: 20px;
+    text-decoration: none;
     @include flexLayout;
+
+    @media  screen and (max-width: 1000px) {
+        font-size: 50px;
+        width: 90px;
+        height: 90px;
+    }
 }
 
 .main-name {
@@ -40,6 +47,10 @@
     font-size: 50px;
     color: $color-secondary;
     @include textStyles;
+
+    @media screen and (max-width: 1000px) {
+        font-size: 40px;       
+    }
 }
 
 .sub-name {
@@ -60,6 +71,10 @@
     @media  screen and (max-width:1600px) {
         font-size: 80px;
     }
+
+    @media screen and (max-width: 1000px) {
+        font-size: 60px;
+    }
 }
 
 .sub-heading {
@@ -78,6 +93,10 @@
     @media screen and (max-width:1300px) {
         font-size: 40px;
         margin-bottom: 30px;
+    }
+
+    @media screen and (max-width: 1000px) {
+        font-size: 20px;
     }
 
 }
@@ -129,6 +148,10 @@
             font-family: $font-nunito;
             font-size: 50px;
             @include textStyles(capitalize);
+
+            @media screen and (max-width: 900px) {
+                font-size: 35px;
+            }
         }
 
         &-paragraph {
@@ -136,6 +159,10 @@
             font-size: 30px;
             margin-bottom: 30px;
             @include textStyles(capitalize);
+
+            @media screen and (max-width: 900px) {
+                font-size: 20px;
+            }
         }
 
         &-btn {
@@ -152,6 +179,12 @@
             border-radius: 30px;
             outline: none;
             cursor: pointer;
+
+            @media screen and (max-width: 900px) {
+                font-size: 12px;
+                width: 130px;
+                height: 30px;
+            }
         }
     }
 
